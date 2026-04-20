@@ -6,7 +6,7 @@ Project ini merupakan implementasi **Supervised Learning (Classification)** meng
 
 Tujuan utama dari project ini adalah untuk memprediksi apakah seorang penumpang **selamat atau tidak** berdasarkan beberapa fitur seperti usia, jenis kelamin, kelas penumpang, dan lainnya.
 
-Project ini dibuat sebagai bagian dari pembelajaran Machine Learning pada pertemuan **WEEK 5**.
+Project ini dibuat sebagai bagian dari pembelajaran Machine Learning 
 
 ---
 
