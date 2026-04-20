@@ -5,7 +5,7 @@
 Project ini merupakan implementasi **Supervised Learning (Regression)** menggunakan dataset *USA Housing*.
 Tujuan utama dari project ini adalah untuk memprediksi harga rumah berdasarkan beberapa fitur seperti income, age, dan jumlah kamar.
 
-Project ini dibuat sebagai bagian dari pembelajaran Machine Learning pada pertemuan WEEK 4.
+Project ini dibuat sebagai bagian dari pembelajaran Machine Learning 
 
 ---
 
