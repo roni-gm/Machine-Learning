@@ -1,4 +1,4 @@
-# Machine Learning - Classification (Week 5, 6, 7)
+# Machine Learning - Classification (Minggu 5, 6, 7)
 
 <div align="center">
 
@@ -7,120 +7,166 @@
 ![Algorithms](https://img.shields.io/badge/Algorithms-Classification-yellow)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
-*A hands-on implementation of supervised learning classification algorithms including Naive Bayes and K-Nearest Neighbors, applied to real-world datasets such as Titanic.*
+*Implementasi praktis supervised learning untuk algoritma klasifikasi seperti Naive Bayes dan K-Nearest Neighbors, menggunakan dataset nyata seperti Titanic.*
 
 </div>
 
 ---
 
-## Table of Contents
-- [About This Project](#about-this-project)
-- [Topics Covered](#topics-covered)
-- [Repository Structure](#repository-structure)
-- [Getting Started](#getting-started)
-- [Algorithms Overview](#algorithms-overview)
-- [Results & Analysis](#results--analysis)
-- [References](#references)
+## 📚 Daftar Isi
+
+* [Tentang Proyek](#tentang-proyek)
+* [Materi yang Dipelajari](#materi-yang-dipelajari)
+* [Struktur Repository](#struktur-repository)
+* [Cara Menjalankan](#cara-menjalankan)
+* [Penjelasan Algoritma](#penjelasan-algoritma)
+* [Hasil & Analisis](#hasil--analisis)
+* [Referensi](#referensi)
 
 ---
 
-## About This Project
+## 📌 Tentang Proyek
 
-This repository contains practical implementations and learning materials for **Supervised Learning - Classification**, focusing on fundamental machine learning algorithms.
+Repository ini berisi implementasi dan materi pembelajaran untuk **Supervised Learning - Classification**, dengan fokus pada algoritma dasar dalam machine learning.
 
-The project explores how machines can learn patterns from labeled data and make predictions on unseen data. It includes both theoretical explanations and hands-on experiments using real datasets.
+Proyek ini bertujuan untuk memahami bagaimana model dapat belajar dari data berlabel dan melakukan prediksi terhadap data baru.
 
-A key case study in this project is the **Titanic dataset**, where models are trained to predict passenger survival based on features such as age, class, and gender.
+Salah satu studi kasus utama yang digunakan adalah **dataset Titanic**, untuk memprediksi apakah seorang penumpang selamat atau tidak berdasarkan fitur tertentu.
 
-**Developed for:** Machine Learning Course  
-**Focus:** Classification Algorithms (Naive Bayes, KNN)  
-**Approach:** Theory + Hands-on Implementation  
-
----
-
-## Topics Covered
-
-- Introduction to Classification
-- Supervised Learning Concepts
-- Naive Bayes Algorithm
-- K-Nearest Neighbors (KNN)
-- Data Preprocessing & Cleaning
-- Handling Missing Values (Imputation)
-- Model Evaluation
-- Hyperparameter Tuning (Grid Search)
+**Dikembangkan untuk:** Mata Kuliah Machine Learning
+**Fokus:** Algoritma Klasifikasi (Naive Bayes, KNN)
+**Pendekatan:** Teori + Praktik Langsung
 
 ---
 
-## Repository Structure
+## 🧠 Materi yang Dipelajari
+
+* Pengenalan Classification
+* Konsep Supervised Learning
+* Algoritma Naive Bayes
+* K-Nearest Neighbors (KNN)
+* Data Preprocessing & Cleaning
+* Penanganan Missing Value (Imputasi)
+* Evaluasi Model
+* Hyperparameter Tuning (Grid Search)
+
+---
+
+## 📁 Struktur Repository
+
+```bash
 WEEK6/
 │
 ├── README.md
 │
 ├── Week 5 - 7 - Introduction to classification.pptx
-│ ← Lecture slides covering theory of classification
+│   ← Slide materi teori klasifikasi
 │
 ├── Week_5_6_7_Supervised_Learning_Hands_On_Classification_All_tanpa_tuning.ipynb
-│ ← Main notebook (implementation & experiments)
+│   ← Notebook utama (implementasi & eksperimen)
 │
 ├── titanic.csv
-│ ← Dataset used for classification problem
+│   ← Dataset untuk klasifikasi
 │
 ├── cara kerja perhitungan naive bayes.xlsx
-│ ← Step-by-step manual calculation of Naive Bayes
+│   ← Perhitungan manual Naive Bayes
 │
 └── hasil_gridsearch_knn.xlsx
-← Results of hyperparameter tuning for KNN
-
+    ← Hasil tuning hyperparameter KNN
+```
 
 ---
 
-## Getting Started
+## 🚀 Cara Menjalankan
 
-### Prerequisites
+### 1. Persiapan
 
-Make sure you have Python installed (3.8+ recommended), then install dependencies:
+Pastikan Python sudah terinstall (disarankan versi 3.8 ke atas), lalu install library:
 
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn jupyter
-Running the Project
-Open Jupyter Notebook:
+```
+
+### 2. Menjalankan Project
+
+Buka Jupyter Notebook:
+
+```bash
 jupyter notebook
-Run the main notebook:
+```
+
+Kemudian jalankan file:
+
+```
 Week_5_6_7_Supervised_Learning_Hands_On_Classification_All_tanpa_tuning.ipynb
-Algorithms Overview
-1. Naive Bayes
-Based on Bayes Theorem
-Assumes feature independence
-Fast and efficient for classification problems
+```
 
-Used for:
+---
 
-Probability-based prediction
-Understanding statistical classification
-2. K-Nearest Neighbors (KNN)
-Instance-based learning algorithm
-Classifies data based on nearest neighbors
-Sensitive to value of K
+## ⚙️ Penjelasan Algoritma
 
-Used for:
+### 1. Naive Bayes
 
-Pattern recognition
-Simple but powerful classification tasks
-Results & Analysis
-Dataset Used
-Titanic Dataset
-Key Steps:
-Data cleaning (handling missing values)
-Feature selection
-Model training
-Evaluation
-Highlights:
-Missing values in Age handled using imputation based on passenger class
-KNN optimized using Grid Search
-Comparison between model performances
-References
-Pattern Recognition and Machine Learning
-Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow
-Scikit-learn Documentation — https://scikit-learn.org/
-Kaggle — Titanic Dataset
-<div align="center"> <i>Machine Learning · Classification Study · Politeknik Negeri Batam</i> </div> ```
+* Berdasarkan Teorema Bayes
+* Mengasumsikan setiap fitur saling independen
+* Cepat dan efisien untuk klasifikasi
+
+Digunakan untuk:
+
+* Prediksi berbasis probabilitas
+* Memahami konsep klasifikasi statistik
+
+---
+
+### 2. K-Nearest Neighbors (KNN)
+
+* Algoritma berbasis instance
+* Mengklasifikasikan berdasarkan tetangga terdekat
+* Sensitif terhadap nilai K
+
+Digunakan untuk:
+
+* Pengenalan pola (pattern recognition)
+* Klasifikasi sederhana namun efektif
+
+---
+
+## 📊 Hasil & Analisis
+
+### Dataset yang Digunakan
+
+* Titanic Dataset
+
+### Tahapan Utama:
+
+* Data cleaning (menangani missing value)
+* Seleksi fitur
+* Training model
+* Evaluasi model
+
+### Insight:
+
+* Missing value pada fitur **Age** ditangani dengan imputasi berdasarkan kelas penumpang
+* KNN dioptimasi menggunakan **Grid Search**
+* Dilakukan perbandingan performa antar model
+
+---
+
+## 📚 Referensi
+
+* Pattern Recognition and Machine Learning
+* Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow
+* Scikit-learn Documentation — https://scikit-learn.org/
+* Kaggle — Titanic Dataset
+
+---
+
+## 👨‍💻 Author
+
+**Roni Gunawan Muhammad**
+
+---
+
+<div align="center"> 
+<i>Machine Learning · Classification Study · Politeknik Negeri Batam</i> 
+</div>
