@@ -6,7 +6,7 @@
 
 ---
 
-## 🧩 Apa Itu Program Ini?
+## 🧩 Apa Sebenarnya Program ini?
 
 Program ini adalah sebuah **notebook Python (Google Colab)** yang mengajarkan cara membuat **model machine learning** untuk mengklasifikasikan jenis transmisi mobil — apakah mobil itu **Manual** atau **Automatic** — berdasarkan data-data seperti tahun pembuatan, harga, jarak tempuh, jenis bahan bakar, dan lainnya.
 
