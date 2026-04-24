@@ -1,6 +1,5 @@
 # 📘 README — Supervised Learning: Classification
 
-> **Dibuat untuk:** Mahasiswa Teknik Rekayasa Robotika — Politeknik Negeri Batam
 > **Topik:** Supervised Learning | Klasifikasi dengan KNN, Naive Bayes, dan Decision Tree
 > **Dataset:** `cardata.csv` (data jual-beli mobil bekas)
 
