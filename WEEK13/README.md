@@ -1,4 +1,4 @@
-# Week 10 - Handling Overfitting & Underfitting with Transfer Learning
+# Week 13 - Handling Overfitting & Underfitting with Transfer Learning
 Tugas praktikum mengenai identifikasi dan penanganan **overfitting** serta **underfitting** pada model klasifikasi gambar menggunakan metode **Transfer Learning** dengan arsitektur **MobileNetV2**. Tujuannya adalah membandingkan performa model sebelum dan sesudah dilakukan teknik penanganan overfitting seperti data augmentation, regularisasi, dropout, early stopping, dan fine-tuning.
 
 **Nama:** Roni Gunawan Muhammad  
